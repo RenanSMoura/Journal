@@ -1,7 +1,8 @@
-package moura.silva.com.journal
+package moura.silva.com.journal.activity
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import moura.silva.com.journal.R
 
 class MainActivity : AppCompatActivity() {
 
