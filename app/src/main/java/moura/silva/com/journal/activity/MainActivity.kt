@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         val TAG = this::class.java.name
     }
 
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.v(TAG, Extra.ON_CREATE)
     }
