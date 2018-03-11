@@ -6,9 +6,6 @@ import android.support.v4.app.FragmentActivity
 import android.util.Log
 import moura.silva.com.journal.utils.Extra
 
-/**
- * Created by Renan on 10/03/2018.
- */
 abstract class BaseActivity : FragmentActivity(){
 
     protected abstract val TAG : String
