@@ -17,5 +17,7 @@ class Extra {
         const val ON_DESTROY = "[ON_DESTROY]"
         const val ON_LOW_MEMORY = "[ON LOW MEMORY]"
         const val ON_TRIM_MEMORY = "[ON TRIM MEMORY]"
+        const val ON_CREATE_VIEW = "[ON CREATE VIEW]"
+
     }
 }
